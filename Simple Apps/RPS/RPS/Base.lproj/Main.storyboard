@@ -70,12 +70,20 @@
                                     <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gh-iY-B0A"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wD-Ko-hvO">
+                                <rect key="frame" x="137" y="77" width="101.5" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="vOs-68-6g0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9GZ-SA-qO5"/>
+                            <constraint firstItem="vOs-68-6g0" firstAttribute="top" secondItem="9wD-Ko-hvO" secondAttribute="bottom" constant="70" id="RR2-pj-Gnc"/>
                             <constraint firstItem="vOs-68-6g0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UGi-G2-asE"/>
                             <constraint firstItem="d2f-p8-CE4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VYt-Db-h3z"/>
+                            <constraint firstItem="9wD-Ko-hvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k68-C9-CNV"/>
                             <constraint firstItem="d2f-p8-CE4" firstAttribute="top" secondItem="vOs-68-6g0" secondAttribute="bottom" constant="30" id="xjt-ek-EBd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,6 +94,7 @@
                         <outlet property="robotButton" destination="wrc-D8-ZZu" id="ZH9-cc-hou"/>
                         <outlet property="rockButton" destination="cO2-Uf-LRq" id="N09-Kb-oXP"/>
                         <outlet property="scissorsButton" destination="ZsO-1f-xQ3" id="mTM-bb-KhB"/>
+                        <outlet property="scoreLabel" destination="9wD-Ko-hvO" id="hru-my-Nhs"/>
                         <outlet property="statusLabel" destination="3M0-a3-Gxk" id="1uy-0w-ePP"/>
                     </connections>
                 </viewController>

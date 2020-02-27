@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var robotButton: UIButton!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var rockButton: UIButton!
@@ -17,8 +18,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var scissorsButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     
+    var playerScore = 0
+    var robotScore = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        scoreLabel.isHidden = true
         resetButton.isHidden = true
     }
     
@@ -41,6 +46,7 @@ class ViewController: UIViewController {
             scissorsButton.isHidden = false
         }
         
+        scoreLabel.isHidden = false
         resetButton.isHidden = false
         
         let result = sign.takeTurn(computerSign)
@@ -48,9 +54,13 @@ class ViewController: UIViewController {
         switch result {
         case .win:
             statusLabel.text = "It's a win!"
+            playerScore += 1
+            scoreLabel.text = "\(playerScore) : \(robotScore)"
             self.view.backgroundColor = UIColor.green
         case .lose:
             statusLabel.text = "You lose!"
+            robotScore += 1
+            scoreLabel.text = "\(playerScore) : \(robotScore)"
             self.view.backgroundColor = UIColor.red
         case .draw:
             statusLabel.text = "It's a draw!"
