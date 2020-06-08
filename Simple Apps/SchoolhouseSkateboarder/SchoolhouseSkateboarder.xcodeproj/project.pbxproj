@@ -20,6 +20,7 @@
 		1C5E51E824795D670000402A /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E51E624795D670000402A /* jump.wav */; };
 		1C5E51E924795D670000402A /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E51E724795D670000402A /* gem.wav */; };
 		1C5E51EB24795EC60000402A /* Sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E51EA24795EC60000402A /* Sparks.sks */; };
+		1C91FDDC248956C200686B3F /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C91FDDB248956C200686B3F /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1C5E51E624795D670000402A /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		1C5E51E724795D670000402A /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
 		1C5E51EA24795EC60000402A /* Sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparks.sks; sourceTree = "<group>"; };
+		1C91FDDB248956C200686B3F /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1C5E51E624795D670000402A /* jump.wav */,
 				1C4D3F41247389D400C414D4 /* LaunchScreen.storyboard */,
 				1C5E51EA24795EC60000402A /* Sparks.sks */,
+				1C91FDDB248956C200686B3F /* MyParticle.sks */,
 				1C4D3F44247389D400C414D4 /* Info.plist */,
 			);
 			path = SchoolhouseSkateboarder;
@@ -150,6 +153,7 @@
 				1C5E51E924795D670000402A /* gem.wav in Resources */,
 				1C4D3F3E247389D300C414D4 /* Main.storyboard in Resources */,
 				1C4D3F35247389D300C414D4 /* GameScene.sks in Resources */,
+				1C91FDDC248956C200686B3F /* MyParticle.sks in Resources */,
 				1C4D3F40247389D400C414D4 /* Assets.xcassets in Resources */,
 				1C5E51EB24795EC60000402A /* Sparks.sks in Resources */,
 				1C4D3F43247389D400C414D4 /* LaunchScreen.storyboard in Resources */,
