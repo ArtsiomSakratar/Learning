@@ -1,2 +1,2 @@
-# Swift-Learning
-Here you can find the code I typed from books, task solutions, and simple applications.
+# Learning
+Here you can find the code I wrote while studying iOS development: books, tasks, courses, etc.
