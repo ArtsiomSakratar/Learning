@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Taps" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gip-C2-Nxk">
+                                <rect key="frame" x="187.5" y="115" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5q-ta-3uF">
+                                <rect key="frame" x="187.5" y="144" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoT-n1-A0g">
+                                <rect key="frame" x="187.5" y="173" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAU-gd-rDq">
+                                <rect key="frame" x="187.5" y="202" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gip-C2-Nxk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HBj-uX-ucU"/>
+                            <constraint firstItem="SoT-n1-A0g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Oni-rW-Cuc"/>
+                            <constraint firstItem="b5q-ta-3uF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="W7D-0d-hfY"/>
+                            <constraint firstItem="PAU-gd-rDq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="XmX-gG-FTv"/>
+                            <constraint firstItem="b5q-ta-3uF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="fqe-De-Sjj"/>
+                            <constraint firstItem="Gip-C2-Nxk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="mQG-bR-ZbF"/>
+                            <constraint firstItem="PAU-gd-rDq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nlT-ly-a9d"/>
+                            <constraint firstItem="SoT-n1-A0g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="173" id="sHu-n2-m8v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doubleLabel" destination="b5q-ta-3uF" id="b8u-tW-YCe"/>
+                        <outlet property="quadrupleLabel" destination="PAU-gd-rDq" id="s7g-4z-u5S"/>
+                        <outlet property="singleLabel" destination="Gip-C2-Nxk" id="QwS-9i-Lf5"/>
+                        <outlet property="tripleLabel" destination="SoT-n1-A0g" id="zjr-cc-BKn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="116"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
