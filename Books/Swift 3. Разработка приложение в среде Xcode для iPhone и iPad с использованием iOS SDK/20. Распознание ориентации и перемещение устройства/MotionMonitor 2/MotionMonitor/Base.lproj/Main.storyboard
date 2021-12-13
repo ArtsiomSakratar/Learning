@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MotionMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ml-CY-n3T">
+                                <rect key="frame" x="0.0" y="21" width="375" height="218"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEK-6d-FRs">
+                                <rect key="frame" x="0.0" y="247" width="375" height="218"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojo-WR-GSm">
+                                <rect key="frame" x="0.0" y="473" width="375" height="218"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EEK-6d-FRs" firstAttribute="height" secondItem="6Ml-CY-n3T" secondAttribute="height" id="0ae-8K-rgg"/>
+                            <constraint firstItem="EEK-6d-FRs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="247" id="7YE-ee-ZFr"/>
+                            <constraint firstItem="6Ml-CY-n3T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="8HC-5s-Che"/>
+                            <constraint firstItem="EEK-6d-FRs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="8u2-WS-GDo"/>
+                            <constraint firstItem="ojo-WR-GSm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="C9d-PS-Xzd"/>
+                            <constraint firstItem="EEK-6d-FRs" firstAttribute="top" secondItem="6Ml-CY-n3T" secondAttribute="bottom" constant="8" id="HGQ-IL-lAZ"/>
+                            <constraint firstItem="ojo-WR-GSm" firstAttribute="top" secondItem="EEK-6d-FRs" secondAttribute="bottom" constant="8" id="NEM-5g-yJf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ojo-WR-GSm" secondAttribute="trailing" constant="-16" id="THb-jm-CJY"/>
+                            <constraint firstAttribute="topMargin" secondItem="6Ml-CY-n3T" secondAttribute="top" id="ejG-gj-fiY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EEK-6d-FRs" secondAttribute="trailing" constant="-16" id="pT4-90-kdP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Ml-CY-n3T" secondAttribute="trailing" constant="-16" id="v9c-Zs-Dvs"/>
+                            <constraint firstItem="ojo-WR-GSm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="473" id="wnE-I5-eEE"/>
+                            <constraint firstItem="ojo-WR-GSm" firstAttribute="height" secondItem="6Ml-CY-n3T" secondAttribute="height" id="xaB-oX-4dk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accelerometerLabel" destination="EEK-6d-FRs" id="c1X-uh-teP"/>
+                        <outlet property="attitudeLabel" destination="ojo-WR-GSm" id="YHT-OW-gdq"/>
+                        <outlet property="gyroscopeLabel" destination="6Ml-CY-n3T" id="QdT-39-TYM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
