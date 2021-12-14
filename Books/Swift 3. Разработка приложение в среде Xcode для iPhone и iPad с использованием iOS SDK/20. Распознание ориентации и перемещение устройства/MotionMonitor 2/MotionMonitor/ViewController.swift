@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
-//  MotionMonitor
-//
+//  MotionMonitor
+//
 //  Created by Artsiom Sakratar on 13/12/2021.
 //
 
@@ -68,4 +68,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
