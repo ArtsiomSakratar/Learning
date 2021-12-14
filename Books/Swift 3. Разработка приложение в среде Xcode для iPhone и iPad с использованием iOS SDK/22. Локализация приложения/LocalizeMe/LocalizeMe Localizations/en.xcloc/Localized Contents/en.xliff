@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizeMe/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2" build-num="13C90"/>
+    </header>
+    <body>
+      <trans-unit id="0Aw-IA-RrY.text" xml:space="preserve">
+        <source>Fourth</source>
+        <target>Fourth</target>
+        <note>Class = "UILabel"; text = "Fourth"; ObjectID = "0Aw-IA-RrY";</note>
+      </trans-unit>
+      <trans-unit id="1R7-as-1RF.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "1R7-as-1RF";</note>
+      </trans-unit>
+      <trans-unit id="G5S-fx-wFP.text" xml:space="preserve">
+        <source>First</source>
+        <target>First</target>
+        <note>Class = "UILabel"; text = "First"; ObjectID = "G5S-fx-wFP";</note>
+      </trans-unit>
+      <trans-unit id="PkG-x4-3fH.text" xml:space="preserve">
+        <source>Second</source>
+        <target>Second</target>
+        <note>Class = "UILabel"; text = "Second"; ObjectID = "PkG-x4-3fH";</note>
+      </trans-unit>
+      <trans-unit id="VHH-gk-SCy.text" xml:space="preserve">
+        <source>Third</source>
+        <target>Third</target>
+        <note>Class = "UILabel"; text = "Third"; ObjectID = "VHH-gk-SCy";</note>
+      </trans-unit>
+      <trans-unit id="t75-hL-kYd.text" xml:space="preserve">
+        <source>Fifth</source>
+        <target>Fifth</target>
+        <note>Class = "UILabel"; text = "Fifth"; ObjectID = "t75-hL-kYd";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizeMe/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2" build-num="13C90"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>LocalizeMe</source>
+        <target>LocalizeMe</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizeMe/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2" build-num="13C90"/>
+    </header>
+    <body>
+      <trans-unit id="FLAG_FILE" xml:space="preserve">
+        <source>FLAG_FILE</source>
+        <target>flag_usa</target>
+        <note>Name of the flag</note>
+      </trans-unit>
+      <trans-unit id="LABEL_FIVE" xml:space="preserve">
+        <source>LABEL_FIVE</source>
+        <target>Five</target>
+        <note>The number 5</note>
+      </trans-unit>
+      <trans-unit id="LABEL_FOUR" xml:space="preserve">
+        <source>LABEL_FOUR</source>
+        <target>Four</target>
+        <note>The number 4</note>
+      </trans-unit>
+      <trans-unit id="LABEL_ONE" xml:space="preserve">
+        <source>LABEL_ONE</source>
+        <target>One</target>
+        <note>The number 1</note>
+      </trans-unit>
+      <trans-unit id="LABEL_THREE" xml:space="preserve">
+        <source>LABEL_THREE</source>
+        <target>Three</target>
+        <note>The number 3</note>
+      </trans-unit>
+      <trans-unit id="LABEL_TWO" xml:space="preserve">
+        <source>LABEL_TWO</source>
+        <target>Two</target>
+        <note>The number 2</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
