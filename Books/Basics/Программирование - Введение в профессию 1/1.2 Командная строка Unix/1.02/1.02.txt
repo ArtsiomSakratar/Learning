@@ -1,0 +1,14 @@
+Задача:
+
+mkdir tetris
+cp tetris.pas tetris
+cd tetris
+ls
+
+Все команды отработали успешно. Что напечатала последняя из них?
+
+
+
+Ответ:
+
+tetris.pas
