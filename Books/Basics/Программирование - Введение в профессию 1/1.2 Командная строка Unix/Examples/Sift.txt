@@ -1,0 +1,50 @@
+I=10
+MYFILE=/tmp/the_file_name
+MYSTRING="Here are several words"
+
+echo $I $MYFILE $MYSTRING
+
+I=$((I+7))
+
+
+[ -f "file.txt" ]
+	# существует ли файл с именем file.txt
+[ "$I" -lt 25 ]
+	# значение переменной I меньше 25
+[ "$A" = "abc" ]
+	# значение переменной A является строкой abc
+[ "$A" != "abc" ]
+	# значение переменной A не является abc
+
+
+if [ -f "file.txt ]; then
+    cat "file.txt"
+else
+    echo "File file.txt not found"
+fi
+
+
+if test -f "file.txt ; then
+    cat "file.txt"
+else
+    echo "File file.txt not found"
+fi
+
+
+if mkdir new_dir; then
+    echo "Directory created"
+else
+    echo "Failed to make new directory"
+fi
+
+
+I=1
+while [ $I -le 100]; do
+    echo $I
+    I=$(( I + 1 ))
+done
+
+
+for C in red orange yellow green blue indigo violet; do
+    echo $C
+done
